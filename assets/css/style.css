@@ -9,3 +9,20 @@ body{
   display: grid;
   place-items: center;
 }
+.profile-container{
+  width: 500px;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  background-image: url("../img/woman.jpg");
+  background-size: cover;
+  box-shadow: rgba(0,0,0,0.2) 0px 60px 40px -7px;
+}
+.profile-container .img-bar{
+  height: 100%;
+  background-image: url("../img/woman.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: all 1s;
+}
